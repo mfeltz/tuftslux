@@ -1,0 +1,34 @@
+.nav {
+	display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-around;
+    margin: 0 auto;
+    height: 140px;
+    font-family: Helvetica;
+}
+
+.scroll {
+	width: 100%;
+	background: rgba(255,140,145, 0.8);
+	font-style: Helvetica;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	height: 60px;
+}
+.scroll_nav {
+	top: 30%;
+}
+
+.space {
+	height: 800px;
+}
+
+.contact.section {
+	display: flex;
+	flex-direction: row;
+}
