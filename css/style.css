@@ -1,16 +1,21 @@
+body {
+	background-image: url(../images/brickwall.png); 
+}
+
 .nav {
 	display: flex;
     flex-direction: row;
+    align-items: center;
     width: 700px;
     justify-content: space-around;
-    margin: 0 auto;
-    height: 140px;
+    margin: 20px auto;
+    height: 34px;
     font-family: Helvetica;
 }
 
 .scroll {
 	width: 100%;
-	background: rgba(255,140,145, 0.8);
+	background: rgba(255,140,145, 0.5);
 	font-style: Helvetica;
 	display: none;
 	position: fixed;
@@ -18,17 +23,74 @@
 	left: 0;
 	width: 100%;
 	z-index: 1;
-	height: 60px;
 }
 .scroll_nav {
 	top: 30%;
 }
 
-.space {
-	height: 800px;
+.link {
+	width: 56px;
+	text-align: center;
+	padding: 10px;
 }
 
-.contact.section {
+#home-img {
+	width: 800px;
+    margin: 0 auto;
+}
+
+.contact .section {
 	display: flex;
-	flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.title-header {
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+	margin: 0 auto;	
+	text-align: center;
+}
+
+#tufts-china-care {
+	letter-spacing: 7px;
+}
+
+#lux-header {
+	font-size: 100px;
+}
+
+#fashion-show {
+	letter-spacing: 11px;
+}
+
+/*#team-menu {
+	margin-bottom: 0;
+	padding-bottom: 2px;
+}*/
+#team-dropdown {
+	list-style: none;
+	padding: 0px;
+	display: none;
+	position: absolute;
+	top: 18px;
+
+}
+.team-item {
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 2px 0px;
+	background-color: #E5E5E5;
+}
+
+.link_team {
+	position: relative;
+}
+
+.link:hover #team-dropdown{
+	display: block;
 }
