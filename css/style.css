@@ -1,5 +1,6 @@
 body {
 	background-image: url(../images/brickwall.png); 
+	margin: 0px;
 }
 
 .nav {
@@ -39,6 +40,10 @@ body {
     margin: 0 auto;
 }
 
+.contact {
+	margin-top: 20px;
+}
+
 .contact .section {
 	display: flex;
     justify-content: space-between;
@@ -52,6 +57,7 @@ body {
 	width: 700px;
 	margin: 0 auto;	
 	text-align: center;
+	padding-top: 20px;
 }
 
 #tufts-china-care {
@@ -76,15 +82,23 @@ body {
 	display: none;
 	position: absolute;
 	top: 18px;
+	left: -57px;
+	width: 200px;
+	z-index: 5;
 
 }
 .team-item {
 	text-align: center;
-	width: 100px;
 	height: 30px;
-	border-radius: 5px;
-	margin: 2px 0px;
 	background-color: #E5E5E5;
+}
+
+.team-item span {
+	vertical-align: -webkit-baseline-middle;
+}
+
+.team-item:hover {
+	background-color: #bfbfbf;
 }
 
 .link_team {
@@ -94,3 +108,32 @@ body {
 .link:hover #team-dropdown{
 	display: block;
 }
+
+.mosaicflow__column { 
+	float:left;
+} 
+
+.mosaicflow__item img {
+	display:block; 
+	width:100%; 
+	height:auto; 
+}
+
+/* DIRECTORS */
+#director-container {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aqua;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.director-item {
+    width: 250px;
+    height: 250px;
+    border: black solid;
+    margin: 30px;
+}
+
