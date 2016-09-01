@@ -1,3 +1,9 @@
+/* FONTS */
+@font-face {
+    font-family: penultimate;
+    src: url(../fonts/GreatVibes-Regular.otf);
+}
+
 body {
 	background-image: url(../images/brickwall.png); 
 	margin: 0px;
@@ -7,8 +13,8 @@ body {
 	display: flex;
     flex-direction: row;
     align-items: center;
-    width: 700px;
-    justify-content: space-around;
+    width: 750px;
+    justify-content: space-between;
     margin: 20px auto;
     height: 34px;
     font-family: Helvetica;
@@ -33,6 +39,18 @@ body {
 	width: 56px;
 	text-align: center;
 	padding: 10px;
+	font-family: penultimate;
+	font-size: 26px;
+	color: black;
+}
+
+.link:link, .link:visited, .link:active {
+	text-decoration: none;
+	color: black;
+}
+
+.link:hover {
+	text-decoration: underline;
 }
 
 #home-img {
@@ -64,6 +82,23 @@ body {
 	letter-spacing: 7px;
 }
 
+/* ABOUT */
+.page-title {
+    font-size: 35px;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.blurb {
+	text-indent: 45px;
+    width: 850px;
+    margin: 15px auto 2px auto;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
 #lux-header {
 	font-size: 100px;
 }
@@ -89,8 +124,12 @@ body {
 }
 .team-item {
 	text-align: center;
-	height: 30px;
+	height: 27px;
 	background-color: #E5E5E5;
+	color: black;
+    font-size: 13px;
+    letter-spacing: 2px;
+	font-family: Times;
 }
 
 .team-item span {
@@ -99,6 +138,11 @@ body {
 
 .team-item:hover {
 	background-color: #bfbfbf;
+}
+
+.team-item a:link, .team-item a:visited, .team-item a:active {
+	text-decoration: none;
+	color: black;
 }
 
 .link_team {
@@ -190,3 +234,24 @@ body {
     width: inherit;
     text-align: center;
 }
+
+/* GALLERY */
+.fotorama {
+	width: 900px;
+	margin: 0 auto;
+}
+
+/* PRESS */
+.mosaicflow__column {
+	float:left;
+} .mosaicflow__item img {
+	display:block; width:100%;
+	height:auto;
+}
+
+.press-panel {
+	width: 800px;
+	margin: 0 auto;
+}
+
+
