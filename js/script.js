@@ -1,3 +1,4 @@
+// Created by Margaret Feltz on 8/31/16
 $(document).ready(function(){
 
 	window.onscroll = function(e){
